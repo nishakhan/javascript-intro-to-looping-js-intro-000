@@ -10,9 +10,10 @@ function forLoop(array) {
 }
 
 function whileLoop(n) {
+  let n 
   while (n > 0) {
     console.log(--n)
     n === 0
   }
-  return "done"
+  return "done";
 }

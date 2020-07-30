@@ -9,7 +9,7 @@ function forLoop(array) {
   return array
 }
 
-function whileLoop(number) {
-  console.log(--number)
-  number === 0
+function whileLoop(n) {
+  console.log(--n)
+  n === 0
 }

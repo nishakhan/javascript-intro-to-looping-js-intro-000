@@ -8,3 +8,8 @@ function forLoop(array) {
   }
   return array
 }
+
+function whileLoop(number) {
+  console.log(--number)
+  number === 0
+}
